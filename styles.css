@@ -1,0 +1,48 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: rgb(44, 40, 40);
+    color: #003366;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.sidebar img {
+    width: 100%;
+    height: auto;
+}
